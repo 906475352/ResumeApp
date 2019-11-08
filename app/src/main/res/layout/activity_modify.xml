@@ -1,0 +1,320 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.xgguo1.recruitment.PublishFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPosition"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:text="招聘职位：" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="如： SEO主管"
+                    android:id="@+id/editPosition"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtType"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:text="招聘类型：" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="如： 技术"
+                    android:id="@+id/editType"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtExperience"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:text="工作经验：" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="如： 1-3年/应届毕业生"
+                    android:id="@+id/editExperience"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEducate"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:text="学历：" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:singleLine="true"
+                android:id="@+id/editEducate"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCompanyImg"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:text="公司图片：" />
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/CompanyImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStar"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:text="工作难度：" />
+
+            <RatingBar
+                android:id="@+id/Star"
+                android:numStars="5"
+                android:rating="3.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSalary"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:text="薪资待遇：" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="如： 10K-20k"
+                    android:id="@+id/editSalary"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCity"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:text="所在城市：" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="如： 广州市"
+                    android:id="@+id/editCity"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPositionDesc"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="37dp"
+                android:text="职位描述：" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:lines="4"
+                    android:inputType="textMultiLine|textLongMessage"
+                    android:hint="对业务部门的SEO技术支持\n设定SEO团队目标及工作分配"
+                    android:id="@+id/editPositionDesc"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPositionRequest"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="37dp"
+                android:text="岗位要求：" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:lines="4"
+                    android:inputType="textMultiLine|textLongMessage"
+                    android:hint="1.本科（含）以上学历，四年以上相关工作经验并有系统的SEO理论。
+                               2.拥有丰富的SEO乙方项目服务经验，熟悉SEO项目运作，有一定的团队管理能力"
+                    android:id="@+id/editPositionRequest"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAddress"
+                android:textSize="17dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:text="工作地址：" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:lines="4"
+                    android:inputType="textMultiLine|textLongMessage"
+                    android:hint="如： 北京 - 海淀区 - 西北旺 - 北京市海淀区上地信息产业基地开拓路7号先锋大厦二段二层"
+                    android:id="@+id/editAddress"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/BtnPublish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布"/>
+
+            <Button
+                android:id="@+id/BtnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="清空"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

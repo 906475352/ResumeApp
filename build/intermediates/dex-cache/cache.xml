@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxandroid-1.2.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="19beef6debb6a22febc28777464c71bfccbafe3d">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\rxandroid-1.2.0_242c4aa0962684d499422c82299a0ef3f53e5531.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\libs\Volley.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="bcf22cc422752201bfe226cd69764d1133987a3b">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\Volley_a1e96e0c6d29b1389857cb711e996b96030c0465.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="e47f10299673ab68f24c595f96b18086cc9a8384">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\cn.bmob.android-bmob-sdk-3.5.0_d4e9a23e7043b88b06268bd488898737d512b76a.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.3.0_852ee9d256ba635b40f1adc0cb63a53964161b07.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_95d064a366a41ba8ef3388a54882ba42c0050c34.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_fc368ae84394cdcc64bff0b77cc5efef2a769490.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxjava-1.1.6.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="ac615240b277e7fd3950d7b35f73b733f310cede">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_14e9a4442d70e0fdc9019dfa8f5ecfd201377e77.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.3.0_fe09da465a1389d72b9ee4dd1116265d8b6308ed.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okio-1.7.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="bbeca71da43c8f4bc9ceedec002060f53437ad26">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\okio-1.7.0_028af41711bf392da8944c04d162c5d47e4779e4.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okhttp-3.3.1.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="e7cb33d9f82d3b8521c6594b180f4dd9fc6d49f2">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\okhttp-3.3.1_a308327994da653285ab878903ed44e858cc12f2.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_ff559e916941c3eb38fdb94e5d7cd03edff58262.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.3.0_a3621bd8d6adf906e530537b2876cba730170486.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\BmobSDK_3.5.0_20160630.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="8eb5c605a02f792e326c5ac8e4feb2c18dd171ad">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\BmobSDK_3.5.0_20160630_ed15d60ea9fff63cf31609b37ba1ffacee595891.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudio2\SDK\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_d61df3ae82b6ec43b9c982a91dd8300e9f3f4a44.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_9dea34fb48313de6137866f9e2695c8243e538b2.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_7d68f5cf9fce877dda0aa742cfae58d9a09c4f8a.jar" />
+    </item>
+    <item
+        jar="E:\AndroidProject\work\Recruitment\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\gson-2.6.2.jar"
+        jumboMode="false"
+        revision="24.0.0 rc2"
+        sha1="dd625f5e7bba8235782b5dc4244c3fd26953190f">
+        <dex dex="E:\AndroidProject\work\Recruitment\app\build\intermediates\pre-dexed\debug\gson-2.6.2_0aa2739057bc6dc33d541462da7c85a39fa38b57.jar" />
+    </item>
+
+</items>

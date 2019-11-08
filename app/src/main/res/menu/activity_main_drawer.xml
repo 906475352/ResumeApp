@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_index"
+            android:icon="@drawable/bar_index"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_love"
+            android:icon="@drawable/bar_love"
+            android:title="收藏夹" />
+        <item
+            android:id="@+id/nav_focus"
+            android:icon="@drawable/bar_focus"
+            android:title="关注的人" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/bar_history"
+            android:title="历史记录" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/bar_share"
+                android:title="分享APP" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/bar_setting"
+                android:title="帮助与设置" />
+        </menu>
+    </item>
+
+</menu>
