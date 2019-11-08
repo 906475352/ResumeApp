@@ -17,7 +17,7 @@
 
 1.  Bmob数据库&&项目结构
 <div style="display:bolck;" align = "center">
-<img src="https://gitee.com/xgguo2/ResumeApp/raw/master/README-IMG/001.png" width="320px" height="550px">
+<img src="https://gitee.com/xgguo2/ResumeApp/raw/master/README-IMG/001.png" width="620px" height="400px">
 <img src="https://gitee.com/xgguo2/ResumeApp/raw/master/README-IMG/002.png" width="320px" height="550px">
 <img src="https://gitee.com/xgguo2/ResumeApp/raw/master/README-IMG/003.png" width="320px" height="550px">
 </div>
@@ -37,7 +37,7 @@
 <div style="display:bolck;" align = "center">
 <img src="https://gitee.com/xgguo2/ResumeApp/raw/master/README-IMG/006.png" width="320px" height="550px">
 <img src="https://gitee.com/xgguo2/ResumeApp/raw/master/README-IMG/008.png" width="320px" height="550px">
-<img src="https://gitee.com/xgguo2/ResumeApp/raw/master/README-IMG/010.png" width="320px" height="550px">
+<img src="https://gitee.com/xgguo2/ResumeApp/raw/master/README-IMG/010.jpg" width="320px" height="550px">
 </div>
 
 #### 技术交流与分享
